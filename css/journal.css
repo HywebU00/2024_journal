@@ -948,7 +948,7 @@ nav.t_nav {
   }
 }
 nav.t_nav li a {
-  padding: 0.5em 0.77em;
+  padding: 0.5em 0.6em;
   border: 1px solid #fff;
   border-radius: 23px;
 }
