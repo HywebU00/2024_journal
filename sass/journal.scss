@@ -380,7 +380,7 @@ span.spec {
   // }
   display: flex;
   flex-flow: row wrap;
-  column-gap: 3.75%;
+  // column-gap: 3.75%;
   .book_wrap {
     width: 17%;
     margin-bottom: 1em;
@@ -392,6 +392,10 @@ span.spec {
     flex-wrap: wrap;
     justify-content: center;
     vertical-align: top;
+    margin-right: 3.75%;
+    &:nth-child(5n) {
+      margin-right: 0;
+    }
     @include screen("mobile") {
       // width: 25%;
       // padding: 0 12px;

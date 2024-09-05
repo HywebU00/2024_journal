@@ -1180,9 +1180,6 @@ span.spec {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -webkit-column-gap: 3.75%;
-     -moz-column-gap: 3.75%;
-          column-gap: 3.75%;
 }
 .book_list .book_wrap {
   width: 17%;
@@ -1202,6 +1199,10 @@ span.spec {
       -ms-flex-pack: center;
           justify-content: center;
   vertical-align: top;
+  margin-right: 3.75%;
+}
+.book_list .book_wrap:nth-child(5n) {
+  margin-right: 0;
 }
 .book_list .book_wrap .book-cover {
   margin-bottom: 1em;
